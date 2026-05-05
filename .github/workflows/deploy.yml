@@ -37,5 +37,7 @@ jobs:
         working-directory: ./02 Starting Project
       - name: Build Project
         run: npm run build
+        working-directory: ./02 Starting Project
       - name: Deploy
         run: echo "Deployed the app"
+        working-directory: ./02 Starting Project
