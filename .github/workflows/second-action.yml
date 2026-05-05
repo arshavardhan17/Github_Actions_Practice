@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 18
       - name: initilize
-        run: npm ci
+        run: npm install
       - name: Run Tests
         run: npm test
